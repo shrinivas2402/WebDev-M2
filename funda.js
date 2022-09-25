@@ -23,6 +23,16 @@ let c = a+b;
 obj2 = document.querySelector('h3')
 obj2.textContent = c;
 
+// Arrow function addition
+var z = 0;
+let ArrFunction = (a,b) => {
+    z=a+b;
+    return z;
+}
+ArrFunction(a,b);
+obj3 = document.querySelector('h4')
+obj3.textContent = z;
+
 var colours = new Array('red','blue', 'green');
 
 // for loop
